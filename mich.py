@@ -3,8 +3,8 @@ import time
 from telethon import TelegramClient, functions
 import re
 
-TELEGRAM_API_ID = '27298269'
-TELEGRAM_API_HASH = 'fb47bcb81d6d671b075455b668dd7a8c'
+TELEGRAM_API_ID = 'YOUR_TELEGRAM_API_ID'
+TELEGRAM_API_HASH = 'YOUR_TELEGRAM_API_HASH'
 OUTPUT_FILE = 'proxy.txt'
 PROXY_FILE = 'mich.txt'
 
