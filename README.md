@@ -20,14 +20,14 @@ This script tests the validity and performance of MTProto proxies for Telegram. 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/telegram-mtproto-proxy-tester.git
-   cd telegram-mtproto-proxy-tester
-   ```
+```bash
+git clone https://github.com/yourusername/telegram-mtproto-proxy-tester.git
+cd telegram-mtproto-proxy-tester
+```
 
 2. Install the required Python packages:
 ```bash
-pip install -r requirements.txt
+pip install -r requests telethon
 ```
 
 3. Replace `TELEGRAM_API_ID` and `TELEGRAM_API_HASH` in the script with your own Telegram API credentials.
